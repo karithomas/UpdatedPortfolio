@@ -1,0 +1,48 @@
+h1 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+#BioPic {
+    border: 8px solid navy;
+}
+.Main {
+    background: #e3f2fd;
+    border: 2px solid navy;
+    margin-top: 40px;
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(245, 243, 243);
+    margin-top: 40px;
+    clear: both;
+}
+@media screen and (max-width: 980px) {
+    .Main {
+        margin: auto;
+    }
+    #BioPic {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 786px) {
+    .Main {
+        margin: auto;
+    }
+    #BioPic {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .Main {
+        margin: auto;
+    }
+    #BioPic {
+        width: 80px;
+        height: 80px;
+    }
+}

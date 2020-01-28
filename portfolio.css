@@ -1,0 +1,48 @@
+.carousel-caption {
+    color: lightcoral;
+    background: lightcyan;
+    padding: 0;
+    border: 2px solid navy;
+}
+.port1, .port2, .port3, .port4, .port5{
+    border: 8px solid navy;
+}
+#Main {
+    background: #e3f2fd;
+}
+@media screen and (max-width: 980px) {
+    .Main {
+        margin: auto;
+    }
+    .port1, .port2, .port3, .port4, .port5 {
+        width: 300px;
+        height: 150px;
+    }
+    .carousel-caption, .row {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 786px) {
+    .Main {
+        margin: auto;
+    }
+    .port1, .port2, .port3, .port4, .port5 {
+        width: 250px;
+        height: 100px;
+    }
+    .carousel-caption, .row {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .Main {
+        margin: auto;
+    }
+    .port1, .port2, .port3, .port4, .port5 {
+        width: 200px;
+        height: 50px;
+    }
+    .carousel-caption, .row {
+        width: 50%;
+    }
+}
